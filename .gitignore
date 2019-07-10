@@ -1,0 +1,62 @@
+#Default ignore everything
+#/*
+#MATLAB_PIC/*
+!MATLAB_PIC/PIC1D1V/*.m
+!*.m
+*.m~
+MATLAB_PIC/PIC1D1V_Eric
+MATLAB_PIC/PIC1D1V/old
+MATLAB_PIC/PIC1D1V/data
+MATLAB_PIC/PIC1D1V/results
+!MATLAB_PIC/PIF_Poisson/*.m
+MATLAB_PIC/PIF_Poisson/data/*
+MATLAB_PIC/PIF_Poisson/old
+*.tikz
+*.png
+*.fig
+*.log
+*.avi
+
+# Matlab specific #
+###################
+*.mat
+*.h5
+*~
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
